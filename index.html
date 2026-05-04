@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · Gizlilik politikası — Two More Please</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">İçeriğe atla</a>
+
+  <div class="wrap">
+    <header class="site-header">
+      <h1 class="site-title">Privacy Policy · Gizlilik politikası</h1>
+      <p class="site-subtitle site-subtitle--en" lang="en">This page describes <strong>Two More Please</strong> according to its current codebase. If the app is updated and its data-processing practices change, you should review this text periodically. Consult a licensed legal adviser for substantive legal certainty.</p>
+      <p class="site-subtitle" lang="tr">Bu sayfa, mevcut uygulama sürümünün kod tabanına göre hazırlanmıştır. Uygulama güncellenirse veri işleme tarafında değişiklik olabileceği için bu metni düzenli gözden geçirmekte fayda vardır. Profesyonel hukuki süreçler için uygun görüş için bir hukuk profesyoneline başvurun.</p>
+    </header>
+
+    <nav class="lang-switch" aria-label="Dil / Language">
+      <a href="#policy-en"><span lang="en">English text</span></a>
+      <span class="lang-switch__sep" aria-hidden="true">·</span>
+      <a href="#policy-tr"><span lang="tr">Türkçe metin</span></a>
+    </nav>
+
+    <main id="main">
+      <article id="policy-en" lang="en" aria-labelledby="policy-en-h">
+        <h2 id="policy-en-h" class="policy-lang-heading visually-hidden">English</h2>
+
+        <nav aria-label="Section links (English)">
+          <p class="note">Links to third-party resources (such as Apple Help/Privacy materials) remain subject to their own policies and terms.</p>
+          <ul class="toc">
+            <li><a href="#en-contact">Data controller and contact</a></li>
+            <li><a href="#en-data">What information is processed</a></li>
+            <li><a href="#en-storage">Where data is stored and for how long</a></li>
+            <li><a href="#en-gamecenter">Game Center and Apple</a></li>
+            <li><a href="#en-deletion">Local storage and deletion</a></li>
+            <li><a href="#en-network">Network connectivity and third-party SDKs</a></li>
+            <li><a href="#en-permissions">Permissions and sensors</a></li>
+            <li><a href="#en-security">Security</a></li>
+            <li><a href="#en-children">Children</a></li>
+            <li><a href="#en-international">International users and rights</a></li>
+            <li><a href="#en-changes">Changes and last updated date</a></li>
+          </ul>
+        </nav>
+
+        <section id="en-contact" aria-labelledby="en-contact-h">
+          <h2 id="en-contact-h">Data controller and contact</h2>
+          <p>For questions about the app, contact the developer at <a href="mailto:umut.tasan24@gmail.com">umut.tasan24@gmail.com</a></p>
+          <p>You may also use this email address for data-subject requests and privacy-related inquiries.</p>
+        </section>
+
+        <section id="en-data" aria-labelledby="en-data-h">
+          <h2 id="en-data-h">What information is processed</h2>
+          <p>The app does not ask you for email, name, or similar personal data in order to create an online account.</p>
+          <p>As the app developer, we do not collect personal data directly. However, some data may be processed by Apple when you use Game Center.</p>
+          <p>The following are used directly in the source code:</p>
+          <ul>
+            <li><strong>Game and progress data (<code>UserDefaults</code>):</strong> map-specific best scores, last played score, and in-progress game sessions (tile positions and values on the board, score, and state related to power-up use).</li>
+            <li><strong>Journey mode (<code>UserDefaults</code>):</strong> information about completed levels.</li>
+            <li><strong>Last active game information (cold-launch resume, <code>UserDefaults</code>):</strong> last played map identifier and, where applicable, journey level number.</li>
+            <li><strong>Settings preferences (<code>UserDefaults</code>):</strong> sound effects, haptic feedback, and in-app language selection.</li>
+            <li><strong>Game Center:</strong> sign-in through Apple’s <cite>GameKit</cite> APIs; submission of scores to leaderboards defined for maps; and reading back scores you previously published from the matching leaderboard (to merge visually with locally stored highs).</li>
+          </ul>
+          <p>In this context, the app source code does not use third-party cookies to build commercial identity, in-app behavioural analytics SDKs, or a separately added crash-reporting library.</p>
+        </section>
+
+        <section id="en-storage" aria-labelledby="en-storage-h">
+          <h2 id="en-storage-h">Where data is stored and for how long</h2>
+          <p>The local items described above are stored on your Apple device in the standard user-preferences area used by the app. Unless deleted, they remain on the device; the app does not use its own code to store data on a server for the purpose of continuously building a personal profile.</p>
+          <p>Storage of scores and ranking on the Game Center side within Apple’s infrastructure is solely a matter for Apple.</p>
+        </section>
+
+        <section id="en-gamecenter" aria-labelledby="en-gamecenter-h">
+          <h2 id="en-gamecenter-h">Game Center and Apple</h2>
+          <p>The app declares the Game Center developer entitlement in its entitlement configuration. When you sign in to Game Center, score submission and leaderboard content are governed by Apple’s authentication and Game Center-related policies. You may review Apple’s privacy practices at <a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer">Apple Legal — Privacy</a>.</p>
+        </section>
+
+        <section id="en-deletion" aria-labelledby="en-deletion-h">
+          <h2 id="en-deletion-h">Local storage and deletion</h2>
+          <p>The data reset in Settings, according to the source code, deletes <strong>only game saves and journey-mode progress</strong> locally (per-map best scores, last score, saved in-progress session, completed journey levels). Keys that store sound, haptics, and language preferences, as well as the “last foreground game” information, are not included in that reset. Full removal may require deleting the app from iOS Settings.</p>
+          <p>How leaderboard-visible scores are fully reflected to the user on Apple’s systems is covered by system settings and Apple support.</p>
+          <p>Users may delete all local data by removing the app from their device.</p>
+        </section>
+
+        <section id="en-network" aria-labelledby="en-network-h">
+          <h2 id="en-network-h">Network connectivity and third-party SDKs</h2>
+          <p>Source review did not find <cite>URLSession</cite>, a third-party advertising SDK, analytics, or dedicated crash-reporting calls in the app code; no other third-party packages added via a dependency manager (e.g. CocoaPods or Swift Package Manager) were identified.</p>
+          <p>The app does not send data to an external server through its own code. However, network traffic to Apple’s infrastructure may occur because of the Game Center integration. That process is Apple’s responsibility.</p>
+        </section>
+
+        <section id="en-permissions" aria-labelledby="en-permissions-h">
+          <h2 id="en-permissions-h">Permissions and sensors</h2>
+          <p>The information property list (including <cite>GridlyInfo.plist</cite> and keys generated with the Xcode-built Info.plist) does not define privacy usage description strings for the camera, photo library, location, or contacts. <cite>App Tracking Transparency</cite> is not used in the source code.</p>
+          <p>For audio routing, <cite>AVAudioSession</cite> is configured for playback / mix-with-others style categories appropriate to the game; no use for microphone recording was identified.</p>
+        </section>
+
+        <section id="en-security" aria-labelledby="en-security-h">
+          <h2 id="en-security-h">Security</h2>
+          <p>Most of the data processed remains on the device and within standard iOS app storage boundaries. Your device passcode or biometric lock, together with iOS’s general security model, helps protect that local content.</p>
+          <p>The app does not use any tracking technology intended to identify the user.</p>
+        </section>
+
+        <section id="en-children" aria-labelledby="en-children-h">
+          <h2 id="en-children-h">Children</h2>
+          <p>The app offers a board-style game; we confirm that neither the code nor the user interface is designed specifically for children in the sense often used under frameworks such as the GDPR/UK GDPR or FTC children’s privacy rules (e.g. no “children only” design or direct collection of age declarations). If you market the product specifically to children, you should assess additional compliance steps separately.</p>
+          <p>The app is not designed primarily for children and is not within Apple’s ‘Kids Category’.</p>
+        </section>
+
+        <section id="en-international" aria-labelledby="en-international-h">
+          <h2 id="en-international-h">International users and rights</h2>
+          <p>If you reside in regions such as the European Economic Area or the United Kingdom, certain legal regimes may grant data rights (for example access, rectification, or objection to processing), which in many cases are first raised with the data controller. Those rights depend on your jurisdiction and situation; obtain qualified advice for an accurate assessment.</p>
+          <p>Requests concerning data related to Game Center may be subject to Apple’s tools and policies.</p>
+        </section>
+
+        <section id="en-changes" aria-labelledby="en-changes-h">
+          <h2 id="en-changes-h">Changes and last updated date</h2>
+          <p>This policy may be updated over time. Where changes are material, notifying users in the app or on this page is appropriate.</p>
+          <p>Last updated: <strong>4 May 2026</strong> — source code was reviewed on that date. Update this line to match your own publication schedule when you revise the policy.</p>
+        </section>
+      </article>
+
+      <article id="policy-tr" lang="tr" aria-labelledby="policy-tr-h" class="policy-tr">
+        <h2 id="policy-tr-h" class="policy-lang-heading visually-hidden">Türkçe</h2>
+
+        <nav aria-label="Bölüm bağlantıları">
+          <p class="note">Üçüncü taraf hizmetlere bağlantılar (ör. Apple Yardım/Gizlilik) kendi politikalarına ve koşullarına tabidir.</p>
+          <ul class="toc">
+            <li><a href="#iletisim">Veri sorumlusu ve iletişim</a></li>
+            <li><a href="#bilgiler">Hangi bilgiler işlenir</a></li>
+            <li><a href="#saklama">Saklama yeri ve süreleri</a></li>
+            <li><a href="#gamecenter">Game Center ve Apple</a></li>
+            <li><a href="#silme">Yerel verileri silme</a></li>
+            <li><a href="#ag">Ağ ve üçüncü taraf SDK’lar</a></li>
+            <li><a href="#izinler">İzinler ve sensörler</a></li>
+            <li><a href="#guvenlik">Güvenlik</a></li>
+            <li><a href="#cocuklar">Çocuklar</a></li>
+            <li><a href="#uluslararasi">Uluslararası kullanıcılar ve haklar</a></li>
+            <li><a href="#degisiklikler">Değişiklikler ve son güncelleme</a></li>
+          </ul>
+        </nav>
+
+        <section id="iletisim" aria-labelledby="iletisim-h">
+          <h2 id="iletisim-h">Veri sorumlusu ve iletişim</h2>
+          <p>Uygulama geliştiricisi olarak sorularınız için: <a href="mailto:umut.tasan24@gmail.com">umut.tasan24@gmail.com</a></p>
+          <p>Veri talepleri ve gizlilik ile ilgili başvurular için bu e-posta adresi üzerinden iletişime geçebilirsiniz.</p>
+        </section>
+
+        <section id="bilgiler" aria-labelledby="bilgiler-h">
+          <h2 id="bilgiler-h">Hangi bilgiler işlenir</h2>
+          <p>Uygulama, çevrimiçi hesap oluşturmak için sizden e-posta, ad veya benzeri kişisel veri talep etmiyor.</p>
+          <p>Uygulama geliştiricisi olarak tarafımızca doğrudan kişisel veri toplanmamaktadır. Ancak Game Center kullanımı kapsamında bazı veriler Apple tarafından işlenebilir.</p>
+          <p>Kaynak kodda aşağıdakiler doğrudan kullanılıyor:</p>
+          <ul>
+            <li><strong>Oyun ve ilerleme verileri (<code>UserDefaults</code>):</strong> harita kimlikleriyle ilişkilendirilmiş en iyi skorlar, son oyun skoru, yarım kalmış oyun oturumu (tahta üzerindeki taşların konum ve değerleri, skor, güç-up kullanımı ile ilgili durum).</li>
+            <li><strong>Yolculuk modu (<code>UserDefaults</code>):</strong> tamamlanan seviye bilgisi.</li>
+            <li><strong>Son açık oyun bilgisi (soğuk açılışta devam etmek için, <code>UserDefaults</code>):</strong> son oynanan harita kimliği ve istenirse yolculuk seviye numarası.</li>
+            <li><strong>Ayarlar tercihleri (<code>UserDefaults</code>):</strong> ses efektleri, dokunsal titreşim ve uygulama dili seçimi.</li>
+            <li><strong>Game Center:</strong> Apple’ın <cite>GameKit</cite> API’leri üzerinden oturum açma işlemi; haritalar için tanımlı liderlik tablolarına skor iletme ve (yerelde saklanan rekor ile birleştirilmiş görünüm için) ilgili liderlik tablosundan kendi yayınladığınız skoru okuma.</li>
+          </ul>
+          <p>Bu süreçte uygulama kaynak kodunda ticari kimlik oluşturmak için üçüncü taraf çerezler, uygulama içi davranış analitiği SDK’sı veya özel olarak eklenmiş bir crash raporlama kütüphanesi kullanılmıyor.</p>
+        </section>
+
+        <section id="saklama" aria-labelledby="saklama-h">
+          <h2 id="saklama-h">Saklama yeri ve süreleri</h2>
+          <p>Yukarıdaki yerel öğeler Apple cihazınız üzerinde, uygulamanın kullandığı standart kullanıcı tercihleri alanında tutulur. Veriler silinmediği sürece cihazda kalır; uygulama sunucuya kendi koduyla sürekli kişisel profil oluşturmak için depolama yapmıyor.</p>
+          <p>Game Center tarafında skorların ve sıralamanın Apple altyapısında saklanması, Apple’a özgüdür.</p>
+        </section>
+
+        <section id="gamecenter" aria-labelledby="gamecenter-h">
+          <h2 id="gamecenter-h">Game Center ve Apple ile paylaşım</h2>
+          <p>Uygulama, entitlements yapılandırmasında Game Center geliştirici yetkisine sahiptir. Game Center’a giriş yaptığınızda skor gönderimi ve liderlik tablosu içeriği Apple’ın kimlik doğrulama ve Game Center politikalarına tabidir. Apple’ın gizlilik uygulamalarını <a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer">Apple Legal — Privacy</a> üzerinden inceleyebilirsiniz.</p>
+        </section>
+
+        <section id="silme" aria-labelledby="silme-h">
+          <h2 id="silme-h">Yerel saklama ve silme</h2>
+          <p>Ayarlar bölümündeki veri sıfırlama işlemi, kaynak koda göre yalnızca <strong>oyun kayıtlarını ve yolculuk modu ilerlemesini</strong> yerel olarak siler (harita bazlı en iyi skorlar, son skor, kayıtlı devam oturumu, yolculuk tamamlanan seviyeleri). Ses, titreşim ve dil tercihleri ile “son ön plan oyun” bilgisini saklayan anahtarlar bu sıfırlamaya dahil edilmez. Tam temizlik için uygulamayı iOS Ayarları’ndan silmek gerekebilir.</p>
+          <p>Liderlik tablosunda görünür skorların Apple sisteminde tamamen nasıl kullanıcıya yansıdığını sistem ayarları ve Apple desteği kapsarı.</p>
+          <p>Kullanıcılar uygulamayı cihazlarından kaldırarak yerel verilerin tamamını silebilir.</p>
+        </section>
+
+        <section id="ag" aria-labelledby="ag-h">
+          <h2 id="ag-h">Ağ ve üçüncü taraf SDK’lar</h2>
+          <p>Kaynak taramasında uygulama kodunda <cite>URLSession</cite>, harici bir reklam SDK’sı, analitik veya özel crash raporu çağrısı bulunmuyor; bağımlılık yöneticisi (Örn. CocoaPods/SPM) ile eklenmiş başka üçüncü taraf paket de tespit edilmedi.</p>
+          <p>Uygulama kendi kodu üzerinden harici bir sunucuya veri göndermez. Ancak Game Center entegrasyonu nedeniyle Apple altyapısına ağ trafiği oluşabilir. Bu süreç Apple’ın sorumluluğundadır.</p>
+        </section>
+
+        <section id="izinler" aria-labelledby="izinler-h">
+          <h2 id="izinler-h">İzinler ve sensörler</h2>
+          <p>Bilgi listesinde (projede kullanılan <cite>GridlyInfo.plist</cite> ve Xcode ile üretilen bilgi listesi anahtarları) kamera, fotoğraf galerisi, konum veya adres defteri gibi gizlilik izin dizeleri tanımlanmıyor. Kaynak kodda <cite>App Tracking Transparency</cite> kullanılmıyor.</p>
+          <p>Ses yönlendirmesi için <cite>AVAudioSession</cite> yapılandırması oyun için çalma / çevrimdışı karışım kategorisinde yapılıyor; mikrofon kaydı için kullanım tespit edilmedi.</p>
+        </section>
+
+        <section id="guvenlik" aria-labelledby="guvenlik-h">
+          <h2 id="guvenlik-h">Güvenlik</h2>
+          <p>İşlenen çoğu veri cihazda kalır ve standart iOS saklama sınırları içinde yer alır. Cihaz şifreniz / biyometrik kilidiniz ve iOS’un genel güvenlik modeli, bu yerel içeriğin korunmasına katkı sağlar.</p>
+          <p>Uygulama, kullanıcıyı tanımlamaya yönelik herhangi bir izleme (tracking) teknolojisi kullanmaz.</p>
+        </section>
+
+        <section id="cocuklar" aria-labelledby="cocuklar-h">
+          <h2 id="cocuklar-h">Çocuklar</h2>
+          <p>Uygulama bir tahta oyunu sunar; kod veya kullanıcı arayüzünde özellikle çocuklara yönelik (KVKK/AB veya FTC Children’s Privacy gibi çerçevelerde sık kullanılan) “yalnızca çocuklar” tasarımı veya doğrudan yaş beyanı toplama bulunmadığını doğrularız. Eğer ürünü çocuklara özellikle yönlendiriyorsanız, uygun uyumluluk adımlarını ayrıca değerlendirmeniz gerekir.</p>
+          <p>Uygulama özellikle çocuklara yönelik olarak tasarlanmamıştır ve Apple 'Kids Category' kapsamında değildir.</p>
+        </section>
+
+        <section id="uluslararasi" aria-labelledby="uluslararasi-h">
+          <h2 id="uluslararasi-h">Uluslararası kullanıcılar ve haklar</h2>
+          <p>Avrupa Ekonomik Alanı veya Birleşik Krallık gibi bölgelerde ikamet ediyorsanız, bazı hukuk rejimleri veri hakları tanıyar (bilgiye erişim, düzeltme veya işlemeye itiraz gibi talepler için genel olarak veri sorumlusuna başvurmak gerekebilir). Bu haklar yargı bölgesi ve süreklilik durumunuza bağlı olarak değişir; doğru değerlendirme için uygun görüş sürecinden geçirin.</p>
+          <p>Game Center’a ilişkin veri talepleri için Apple’ın araçları ve politikaları uygulanabilir.</p>
+        </section>
+
+        <section id="degisiklikler" aria-labelledby="degisiklikler-h">
+          <h2 id="degisiklikler-h">Değişiklikler ve son güncelleme</h2>
+          <p>Politika zaman içinde güncellenebilir. Önemli değişiklikler olduğunda, uygulama içi veya bu sayfa üzerinden duyurmak uygun bir yöntemdir.</p>
+          <p>Son güncelleme tarihi: <strong>4 Mayıs 2026</strong> — kaynak kod taraması bu tarihte yapılmıştır. Güncellenmiş bir tarih için bu satırı kendi yayın sıranıza göre düzenlemeniz beklenir.</p>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p lang="en">Local page · No external CDN dependency.</p>
+      <p lang="tr">Yerel sayfa · Harici CDN kullanılmamıştır.</p>
+    </footer>
+  </div>
+</body>
+</html>
